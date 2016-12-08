@@ -9,11 +9,11 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
-    @Default
+    @Default("Default text")
     private String text;
-    @Default
+    @Default("1")
     public int number;
-    @Default
+    @Default("0.1")
     protected float decimal;
 
     @Override
